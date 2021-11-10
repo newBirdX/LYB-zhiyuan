@@ -22,9 +22,9 @@
         <!-- 发布留言板块（默认隐藏） -->
         <div id="ly">
             <h3>发表留言</h3>
-            <span>昵称：</span><input type="text" name="name"><br>
-            <span>标题：</span><input type="text" name="title"><br>
-            <span style="display: block;">内容：</span><textarea name="content" cols="30" rows="10" style="resize: none;"></textarea><br>
+            <span>昵称：</span><input type="text" name="author" id="author" /><br>
+            <span>标题：</span><input type="text" name="title" id="title" /><br>
+            <span style="display: block;">内容：</span><textarea name="content" id="cont" cols="30" rows="10" style="resize: none;"></textarea><br>
             <button id="submit" style="width:80px;">发布留言</button>
             <button id="cancel" style="width: 50px;">取消</button>
         </div>
@@ -32,6 +32,12 @@
             <p class="author">1</p>
             <p class="title">2</p>
             <p class="content">3</p>
+        </div>
+        <div id="pages">
+            <div id="an">
+                 <button id="pre">上一页</button>
+                 <button id="next">下一页</button>
+            </div>
         </div>
     </div>
     <div id="footer">
